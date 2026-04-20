@@ -26,7 +26,7 @@ warnings.filterwarnings('ignore')
 # ============================================
 st.set_page_config(
     page_title="Data Cleaner Pro - Igor.Lana",
-    page_icon="🧹",
+    page_icon="🥀",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -87,7 +87,7 @@ st.markdown("""
 # ============================================
 col_logo, col_title = st.columns([1, 5])
 with col_logo:
-    st.markdown("<div style='font-size: 3rem; text-align: center;'>🧹</div>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size: 3rem; text-align: center;'>🥀</div>", unsafe_allow_html=True)
 with col_title:
     st.markdown("""
     <div class="main-header">
